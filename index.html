@@ -6,52 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        h1 {
+            font-size: 3em;
+            font-weight: bold
+        }
+
+        ol {
+            list-style-type: disc;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Formularz zapisów</h1>
     <table border="1" width="100%">
-        <tr>
-            <td>
-                <b>Name</b>
-            </td>
-            <td>
-                <b>Surname</b>
-            </td>
-            <td>
-                <b>Age</b>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                Anna
+        <caption>Wykaz uczestników</caption>
+        <thead>
+            <tr>
+                <td>
+                    <b>Name</b>
+                </td>
+                <td>
+                    <b>Surname</b>
+                </td>
+                <td>
+                    <b>Age</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Anna
 
 
-                Nowak
+                    Nowak
 
 
-                23
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">
-                Michał
-            </td>
-            <td>
-                Kowalski
-            </td>
-            <td>
-                27
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                Kowalczyk
+                    23
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    Michał
+                </td>
+                <td>
+                    Kowalski
+                </td>
+                <td>
+                    27
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Kowalczyk
 
-                33
-            </td>
-        </tr>
+                    33
+                </td>
+            </tr>
+        </thead>
     </table>
+    <h2>Lista zakupów</h2>
+
+    <ol>
+        <li>
+            chleb
+        </li>
+        <li>
+            mleko
+        </li>
+        <li>
+            warzywa
+        </li>
+        <ul>
+            <li>ziemniaki</li>
+            <li>pomidory</li>
+            <li>ogorki</li>
+        </ul>
+        <li>
+            makaron
+            </ul>
+    </ol>
 
     <p>Koniec</p>
 </body>
