@@ -1,2 +1,4 @@
 table { width: 100%; border-collapse: collapse; }
 table, th, td { border: 1px solid; padding: 5px; }
+.kosc {text-indent: 30px; list-style-type: square;} 
+.nowy {font-size: 30px; font-style: italic;}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,58 @@
     <link rel="stylesheet" href="style.css">
     <title>Mój dokument</title>
 </head>
+
 <body>
     <h1>Formularz zapisów</h1>
-    <p>Treść pierwszego akapitu</p>
-    <p>Treść DRUGIEGO akapitu</p>
-    <p>Przykład znacznika: &lt;p&gt; &lt;/p&gt;</p>
-    <br>
-    <h2>Tabela</h2>
-    <table>
-        <tr>
-            <th>Imię</th>
-            <th>Nazwisko</th>
-            <th>Wiek</th>
-        </tr>
-        <tr>
-            <td>Kamil</td>
-            <td>Kraciuk</td>
-            <td rowspan="2">18</td>
-        </tr>
-        <tr>
-            <td>Jan</td>
-            <td>Nowak</td>
-        </tr>
-        <tr>
-            <td colspan="2">Jan Nowak</td>
-            <td>38</td>
-        </tr>
-    </table>
-<br><br>
-<hr>
-<br>
+   
     <h2>Tabela z zadania</h2>
     <table>
         <caption>Caption</caption>
-        <tr>
-            <th>Imię</th>
-            <th>Nazwisko</th>
-            <th>Wiek</th>
-        </tr>
-        <tr>
-            <td colspan="3">Kamil Kraciuk 18</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Jan</td>
-            <td>Nowak</td>
-            <td>33</td>
-        </tr>
-        <tr>
-            <td colspan="2"> Nowak 28</td>
-            
-        </tr>
+        <thead>
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Wiek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">Kamil Kraciuk 18</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Jan</td>
+                <td>Nowak</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Nowak 28</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Razem: 111</td>
+            </tr>
+        </tfoot>
     </table>
+
+    <ol>
+        <li>Kość strzałkowa</li>
+        <li>Kość łokciowa</li>
+        <ul>
+            <li>Kość kość</li>
+            <li>Kość łokciowa</li>
+         </ul>
+        <li>Kość strzałkowa</li>
+        <ol class="kosc">
+            <li>Kości kostne</li>
+            <li>szkielet</li>
+            <li>szkielet 1</li>
+            <li>szkielet 2</li>
+        </ol>
+        <li>Kość łokciowa</li>
+    </ol>
 </body>
+<p class="nowy">Treść modyfikowana z akapitu </p>
+
 </html>
