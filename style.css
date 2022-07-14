@@ -1,0 +1,18 @@
+h1 {
+    font-size: 2em;
+    color:aqua;
+    font-weight: normal;
+}
+
+p {
+    font-weight: normal;
+    
+}
+label {
+    display: inline-block;
+    width: 43px;
+
+}
+div {
+    margin: 10px 10px;
+}
