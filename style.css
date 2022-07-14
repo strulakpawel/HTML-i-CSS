@@ -1,0 +1,27 @@
+
+       ol {
+        font-size: 1em; 
+        color: blue;
+       } 
+
+       li{
+        font-size: 2em; 
+        font-variant-caps: small-caps;
+        font-variant: inherit;
+        color:brown
+       }
+
+       marquee{
+            color: blueviolet;
+            font-size: 3em; 
+            font-weight: normal;
+            font-stretch: narrower
+       }
+
+        h1 {
+            color: blueviolet;
+            font-size: 3em; 
+            font-weight: normal;
+            font-stretch: narrower
+            
+        }
