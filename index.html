@@ -6,29 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
-        h1 {
-            font-size: 2em;
-            font-weight: normal;
+        /*body {
+            color: blue;
         }
-        h2 {
-            font-size: 2em;
-            font-weight: normal;
-        }
-        ol {
-            margin-block-start: 5em;
-        }
-        p {
-            margin-inline-start: 10em;
-        }
+        */
+        
     </style>
 </head>
 
 <body>
     <h1>Formularz zapisow</h1>
 
-    <p>tekst tekst tekst NOWA LINIA <br>tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst
-        tekst tekst tekst tekst tekst TRZY SPACJE &nbsp;&nbsp;&nbsp; tekst tekst tekst tekst tekst tekst tekst tekst
+    <p>tekst przed nowa linią NOWA LINIA <br>
+        tekst TRZY SPACJE &nbsp;&nbsp;&nbsp; tekst tekst tekst tekst tekst tekst tekst tekst
         tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst</p>
     <p>tekst2 tekst2 tekst2 tekst2</p>
 
@@ -102,7 +94,7 @@
     <h2>14.07.2022</h2>
     <marquee>this is marquee</marquee>
     <h2>zadanie 19:30</h2>
-    <p>tekst w paragrafie pod CSS</p>
+    <p style="margin-inline-start: 4em;">tekst w paragrafie pod CSS z wcięciem 4em INLINE</p>
     <p>   
     <ol>
         <li>bone A</li>
@@ -116,7 +108,29 @@
         </ul>
     </ol>
     </p>
-    <h2 style="font-size: 3em;font-weight:600;">h2 z nadpisanym stylem inline</h2>
+    <h2 style="font-size: 3em;font-weight:600;">h2 z nadpisanym stylem INLINE</h2>
+
+    <h2>formularz 20:18</h2>
+    <h2>przykład spana 21:06</h2>
+    <p>
+        <span>tekst w span</span>
+    </p>
+
+    <form method="post" action="index2.html">
+        <div>
+            <label for="imieForm">Imię</label>
+            <input id="imieForm" type="text" name="imie">
+        </div>
+        <div>
+            <label for="hasloForm">Hasło</label>
+            <input id="hasloForm" type="password" name="haslo">
+        </div>
+        <div>
+            <label for="wiekForm">Wiek</label>
+            <input id="wiekForm" type="number" name="wiek">
+        </div>
+
+    </form>
 </body>
 
 </html>
