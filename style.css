@@ -15,3 +15,10 @@ table, th, td { border: 1px solid; padding: 5px; }
     justify-content: center; 
 }
 .nowaWarstwa h2 {margin:0; font-size: 35px; font-weight: 100;}
+form div { 
+    margin: 8px 0;
+}
+label {
+    display: inline-block;
+    width: 75px;
+}
