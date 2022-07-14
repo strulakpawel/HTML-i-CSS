@@ -1,0 +1,17 @@
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size: 2em;
+    font-weight: initial;
+    color: blueviolet;
+}
+ol {
+    list-style-type: upper-roman;
+    margin-inline-start: 50px;
+    color: red;
+}
+ul {
+    margin-inline-start:  25px;
+    color: blue;
+}
