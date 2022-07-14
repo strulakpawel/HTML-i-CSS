@@ -1,0 +1,12 @@
+h1 {
+    font-size: 3em;
+    font-weight: bold
+}
+
+ol {
+    list-style-type: disc;
+}
+
+h2 {
+    font: caption;
+}
