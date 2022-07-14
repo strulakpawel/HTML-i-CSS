@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zadanie z Tabelką</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
+
 <body>
     <h1>Formularz zapisów</h1>
     <p>
-        Przykład znacznika:
+        Przykład znacznika: &lt; &aacute;
 
-        <table border="1" width="100%">
-            <tr>
+    <table border="1" width="100%">
+        <caption>ZADANIE Z TABELKĄ</caption>
+        <tr>
             <td>
                 Imię
             </td>
@@ -22,44 +26,101 @@
             <td>
                 Wiek
             </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    Jakub
-                
-                
-                    Kięczkowski
-                
-                
-                    27
-                </td>
-            </tr>
-            <tr rowspan="2">
-                <td>
-                    Malwina
-                </td>
-                <td>
-                    Tkacka
-                </td>
-                <td>
-                    33
-                </td>
-                </tr>
-                <tr>
-                    <td>
-                        Jacek
-                    </td>
-                    <td colspan=2>
-                        Wacek
-                    
-                        22
-                    </td>
-                    </tr>
-        </table>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Jakub
+
+
+                Kięczkowski
+
+
+                27
+            </td>
+        </tr>
+        <tr rowspan="2">
+            <td>
+                Malwina
+            </td>
+            <td>
+                Tkacka
+            </td>
+            <td>
+                33
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Jacek
+            </td>
+            <td colspan=2>
+                Wacek
+
+                22
+            </td>
+        </tr>
+    </table>
 
     </p>
+
     <p>
         Panie generale melduje wykonanie zadania! ;D
     </p>
+
+    <h3>Anatomia</h3>
+
+    <ul style="list-style-type: circle;">
+        <li>Kość strzałkowa</li>
+        <li>Kość jarzmowa</li>
+        <li>Kość biodrowa</li>
+    </ul>
+
+    <h3>Jedzonko</h3>
+    
+    <ul style="list-style-type: decimal;">
+        <li>Pizza</li>
+        <ol>
+            <li style="list-style-type: circle;">z ananasem</li>
+        </ol>
+        <li>Makaron</li>
+        <ol>
+            <li style="list-style-type: circle;">bolognese</li>
+        </ol>
+    
+        <ol>
+            <li style="list-style-type: circle;">carbonara</li>
+        </ol>
+    
+        <li>Frytki</li>
+        <ol>
+            <li style="list-style-type: circle;">z majonezem</li>
+        </ol>
+    </ul>
+
+    <h3>Hobby</h3>
+
+    <ul style="list-style-type: square;">
+        <li>Fotografia</li>
+        <li>Środowisko</li>
+        <li>Kulinaria</li>
+    </ul>
+
+    <form method="post" action="indeks2.html">
+        <div>
+        <label for="imieForm">Imię</label>   
+        <input id="imieForm" type="text" name="imie">
+        </div>
+
+        <div>
+        <label for="passwordForm">Hasło</label>    
+        <input id="passwordForm" type="password" name="Hasło">
+        </div>
+
+        <div>
+        <label for="wiekForm">Wiek</label>    
+        <input id="wiekForm" type="text" name="wiek">
+        </div>
+    </form>
+
 </body>
 </html>
