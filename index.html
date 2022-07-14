@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uczymy sie HTML i CSS</title>
+    <style>
+        .blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Formularz zapisów</h1>
@@ -47,6 +59,48 @@
             </td>
         </tr>
     </table>
+<br>
+    <table border="1" width="50%">
+        <caption>Tabela liczb 2.0</caption>
+        <tr>
+            <th>
+                1 
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                4 5 7 8
+            </td>
+            <td>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                9
+            </td>
+        </tr>
+        <tr>
+            <td>
+                10
+            </td>
+            <td>    
+                11
+            </td>
+            <td>
+                12
+            </td>
+        </tr>
+    </table>
+    <br>
+    <marquee class="blink">Z pozdrowieniami dla naszego trenera :)))</marquee>
+
     <p>Lorem ipsum et door sit amet<br>
        to jest nowa linia<br>
        to jest kolejna linia<br>
