@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
 <body>
     <h1>Formularz zapisów</h1>
     &lt;p&gt;&lt;/p&gt; &ac; &amp; &nbsp; &copy;
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    <p>Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit.
         Similique quis aut delectus iure dolore repudiandae laudantium
         doloremque, odit in <br> Nowa linia &nbsp; &nbsp; &nbsp; earum
         cupiditate soluta placeat minima facilis expedita? Mollitia
@@ -63,7 +65,7 @@
     </table>
 
     </p>
-    <h2>Zadanine: Narysowanie tabeli</h2>
+    <h2 style="padding: 1em;">Zadanine: Narysowanie tabeli</h2>
     <table border="1" width="100%">
         <caption>Przykładowa nazwa tabeli</caption>
         <tr>
@@ -120,7 +122,7 @@
         <li>nogi</li>
     </ul>
 
-    <ol>
+    <ol style="list-style-type: lower-roman;">
         <li>głowa</li>
         <li>szyja</li>
         <li>barki</li>
@@ -128,13 +130,22 @@
         <li>brzuch</li>
         <li>nogi</li>
     </ol>
-
-
-
-
     <h5>Formularz zapisów</h5>
     <h6>Formularz zapisów</h6>
-
+    <form method="post" action="index2.html">
+        <div>
+        <label for="imieForm">Imię</label>
+        <input id="imieForm" type="text" name="imię">
+        </div>
+        <div>
+        <label for="password">Hasło</label>
+        <input type="password" name="hasło">
+        </div>
+        <div>
+        <label for="number">Wiek</label>
+        <input type="number" name="wiek">
+        </div>
+    </form>
 
 </body>
 
