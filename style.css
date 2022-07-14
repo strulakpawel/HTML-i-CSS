@@ -1,4 +1,17 @@
+h1, h2, h3 {font-family: "Sofia", sans-serif;}
 table { width: 100%; border-collapse: collapse; }
 table, th, td { border: 1px solid; padding: 5px; }
 .kosc {text-indent: 30px; list-style-type: square;} 
 .nowy {font-size: 30px; font-style: italic;}
+.nowaWarstwa { 
+    width: 500px; 
+    margin: 20px 30px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border: 10px solid #005aad; 
+    background: #cfcfcf; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+.nowaWarstwa h2 {margin:0; font-size: 35px; font-weight: 100;}
