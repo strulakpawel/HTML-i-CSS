@@ -5,24 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularz zapisów</title>
+    <link rel="stylesheet" href="./style.css" >
+
     <style>
-        
+    /*
         h1 {
-           font-size: 2em; 
-           font-weight: normal; 
-        }
-
-
+    font-size: 2em;
+    font-weight: normal;
+    } 
+    */   
     </style>
 </head>
 
 <body>
-    <marquee>Teskt!</marquee>
+    <marquee>Lorem <span style="color: blue;font-size: 2em;padding-left: 50px;padding-right: 50px;">ipsum</span> et door sit amet lorem ipsum et door sit amet lorem ipsum et door sit amet lorem ipsum et door sit!</marquee>
 
-    <h1>
+        <h1 style="font-size:4em">
         Formularz zapisów
-    </h1>
+        </h1>
+    
+        <form method="post" action="index2.html">
+            <div>
+                <label for="imieForm">Imię</label>
+                <input id="imieForm" type="text" name="imie">
+            </div>
+            <div>
+                <label for="hasloForm">Hasło</label>
+                <input id="hasloForm" type="password" name="haslo">
+            </div>
+            <div>
+                <label for="wiekForm">Wiek</label>
+                <input id="wiekForm" type="number" name="wiek" min="0">
+            </div>
+            <div>
+                <label for="dataurodzeniaForm">Data urodzenia</label>
+                <input id="dataurodzeniaForm" type="date" name="dataurodzenia">
+            </div>
+            <div>
+                <label for="kolorForm">Ulubiony kolor</label>
+                <input id="kolorForm" type="color" name="kolor">
+            </div>
+        </form>
+
     <p>
     <h2>Przykład znacznika:</h2>
     <p>
@@ -94,9 +119,24 @@
         <ul>
             <li>Kość strzałkowa</li>
             <li>Kość łokciowa</li>
-            <li>Kość jakaś</li>
+            <ul><li style="color:red;">Kość jakaś</li></ul>
         </ul>
     </ol>
+
+    <ol>
+        <li>Kość strzałkowa</li>
+        <li>Kość łokciowa</li>
+        <li>Kość jakaś</li>
+        <ul>
+            <li>Kość strzałkowa</li>
+            <li>Kość łokciowa</li>
+            <ul>
+                <li>Kość jakaś</li>
+            </ul>
+        </ul>
+    </ol>
+
+    
 
 </body>
 
