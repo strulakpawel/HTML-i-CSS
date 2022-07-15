@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,171 +8,84 @@
     <title>Document</title>
     <style>
 
-    ol {
-        list-style-type: circle; 
-    }
+        h1 {
+            font-size: 2em; 
+            font-weight: normal;
+        }
 
     </style>
-    <link rel="stylesheet" href="./style.css"
+
+    */komentowanie - to nie jest kod*/
 </head>
+
 <body>
-    <h1 style="font-size: 5.5em;"> Moja pierwsza strona w HTML</h1>
-    <p> Lorem ipsum       et door sit amet <br> Lorem ipsum et door sit amet <br>
-        Lorem ipsum et door sit amet <br> 
-        Lorem ipsum et door sit amet <br> 
-        Lorem ipsum et door sit amet <br> 
-        Lorem ipsum et door sit amet &lt; &gt; &nbsp; &reg; &hearts; Lorem ipsum et door sit amet Lorem ipsum et door sit amet</p>
-    <p> Paragraf - zawartość tekstu</p>
-    <table border="1" width="100%">
-        <tr>
-            <td>
-            Imię
-            </td>
-            <td>
-            Nazwisko
-            </td>
-            <td>
-            Wiek
-            </td>
-        </tr>
-        <tr>
-            <td>
-            Kasia
-            </td>
-            <td>
-            Kaczmarek
-            </td>
-            <td rowspan="2"> 
-            23
-            </td>
-        </tr>
-        <tr>
-            <td>
-            Kasia
-            </td>
-            <td>
-            Kaczmarek
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-            Kasia
+     <h1>Formularz zapisow</h1>
+    <p>
+        Przykład znacznika:
+        &lt;p&gt;&lt;/p&gt; &copy; &reg; &uuml;
+        &amp; &nbsp;
 
-            Kaczmarek
-            </td>
-        </tr>
-    </table>
-
-    <h3> Zadanie 1 Stworzenie tabelki
-    </h3>
-    <table border="1" width="50%">
-        <caption> Dane uzytkownika
-        </caption>
-        <thead> 
-        <tr>
-            <td>
-                <b>Imię</b>
-            </td>
-            <td>
-                <b>Nazwisko</b>
-            </td>
-            <td>
-                <b>Wiek</b>
-            </td>
-        </tr>
+        <table border="1" width="100%">
+        <caption>Wykaz uczestników</caption>
+        <thead>
+            <tr>
+                <th>
+                    Imię
+                </th>
+                <th>
+                    Nazwisko
+                </th>
+                <th>
+                    Wiek
+                </th>
+            </tr>
         </thead>
-
-    <tbody>  
-    <tr>
-            <td colspan="3">
-                Kasia
-                Kaczmarek
-                23
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                Kasia
-            </td>
+        <tbody>
+            <tr>
                 <td>
-                Kowalski
+                    Hubert
+                </td>
+                <td>
+                    M&uuml;ller
                 </td>
                 <td rowspan="2">
-                25
-            </td>
-        </tr>
-    <t/body>
-    <tfoot> 
+                    44
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hubert
+                </td>
+                <td>
+                    Kowalski
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Hubert
 
-        <tr>
-            <td colspan="2">
-                Nowak
-    
-                26
-            </td>
-        </tr>
-    </tfoot> 
-    </table>
+                    Kowalski
+                </td>
+                <td>
+                    44
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Łącznie: 300</td>
+            </tr>
+        </tfoot>
+        </table>
+    </p>
 
-<h2>Kolejna Tabela</h2>
+    <h1>Formularz zapisow 2</h1>
 
-    <table border="1" width="50%">
-        <tr>
-            <th>Liczba</th>
-            <th>Kolor</th>
-            <th>Litera</th>
-        </tr>
-
-        <tr>
-            <td rowspan="2">0</td>
-            <td rowspan="2">czerwony</td>
-            <td>A</td>
-        </tr>
-
-        <tr>
-            <td>B</td>
-        </tr>
-
-        <tr>
-            <td colspan="3">2 szary C</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>biały</td>          
-            <td>D</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>czarny</td>
-            <td>E</td>
-        </tr>
-            
-            
-
-
-
-    
-    </table>
-
-    <ul>
-        <li> tworzenie listy uporządkowanej</li>
-        <li> tworzenie listy nieuporządkowanej</li>
-             <ul>
-                <li> tworzenie listy uporządkowanej</li>
-                 <li> tworzenie listy nieuporządkowanej</li>
-    
-              </ul>
-
-    </ul>
-
-    <ul>
-        <li> tworzenie listy uporządkowanej</li>
-        <li> tworzenie listy nieuporządkowanej</li>
-
-    </ul>
+    <p>Lorem ipsum et door sit amet Lorem ipsum et NOWA sLINIA<br>
+        door sit ametLorem ipsum et door sit ametLorem
+        ipsum et door sit ametLorem ipsum et door
+        sit ametLorem ipsum et door sit ametLorem
+    </p>
 
     <ol>
         <li>Kość strzałkowa</li>
@@ -194,5 +108,18 @@
         </ul>
     </ol>
 
+    <h4></h4>
+
+    <form method="get" action="index2.html">
+
+    <p>Tab.1 Dane uzytkownika</p>
+
+        <p><label>Imię<input /></label></p>
+        <p><label>Nazwisko<input /></label></p>
+        <p><label>Kierunek studiów<input /></label></p>
+        <p><label>Rok studiów<input /></label></p>
+
+    </form>
 </body>
+
 </html>
