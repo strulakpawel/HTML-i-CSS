@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,5 +44,122 @@
     </tr>
     </table>
     
+</body>
+=======
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*
+        body {
+            color: red;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Formularz zapisow</h1>
+    <p>
+        <span style="">Przykład</span> znacznika:
+        &lt;p&gt;&lt;/p&gt; &copy; &reg; &uuml;
+        &amp; &nbsp;
+
+        <table border="1" width="100%">
+        <caption>Wykaz uczestników</caption>
+        <thead>
+            <tr>
+                <th>
+                    Imię
+                </th>
+                <th>
+                    Nazwisko
+                </th>
+                <th>
+                    Wiek
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Hubert
+                </td>
+                <td>
+                    M&uuml;ller
+                </td>
+                <td rowspan="2">
+                    44
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hubert
+                </td>
+                <td>
+                    Kowalski
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Hubert
+
+                    Kowalski
+                </td>
+                <td>
+                    44
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Łącznie: 300</td>
+            </tr>
+        </tfoot>
+        </table>
+    </p>
+
+    <h1>Formularz zapisow 2</h1>
+
+    <p>Lorem ipsum et door sit amet Lorem ipsum et NOWA sLINIA<br>
+        door sit ametLorem ipsum et door sit ametLorem
+        ipsum et door sit ametLorem ipsum et door
+        sit ametLorem ipsum et door sit ametLorem
+    </p>
+
+    <ol>
+        <li>Kość strzałkowa</li>
+        <li>Kość łokciowa</li>
+        <ul>
+            <li>Kość strzałkowa</li>
+            <li>Kość łokciowa</li>
+            <li>Kość jakaś</li>
+        </ul>
+        <li>Kość jakaś</li>
+        <ul>
+            <li>Kość strzałkowa</li>
+            <li>Kość łokciowa</li>
+            <li style="color: red;">Kość jakaś</li>
+            <ol>
+                <li>Kość strzałkowa</li>
+                <li>Kość łokciowa</li>
+                <li>Kość jakaś</li>
+            </ol>
+        </ul>
+    </ol>
+
+    <form method="post" action="index2.html">
+        <div>
+            <label for="imieForm">Imię</label>
+            <input id="imieForm" type="text" name="imie">
+        </div>
+        <div>
+            <label for="passwordForm">Hasło</label>
+            <input id="passwordForm" type="password" name="haslo">
+        </div>
+        <div>
+            <label for="wiekForm">Wiek</label>
+            <input id="wiekForm" type="number" name="wiek">
+        </div>
+    </form>
+
 </body>
 </html>
