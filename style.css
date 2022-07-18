@@ -6,12 +6,21 @@
 /*TEN STYL JEst do czegos*/
 
 
+<<<<<<< HEAD
 label {
 
+=======
+ol {
+    list-style-type: disc;
+}
+
+label {
+>>>>>>> 9aff796be64065babeaf8e3546deabaf615ac1a1
     display: inline-block;
     width: 43px;
 }
 
+<<<<<<< HEAD
 * {
     margin-top: 5px;
     margin-left: 20px;
@@ -21,3 +30,8 @@ label {
     width:177px ;
 
 }
+=======
+div {
+    margin: 10px 0;
+}
+>>>>>>> 9aff796be64065babeaf8e3546deabaf615ac1a1
