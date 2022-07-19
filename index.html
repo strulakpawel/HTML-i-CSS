@@ -1,52 +1,172 @@
-<!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
 
-        h1 {
-            font-size: 2em;
-            font-weight: normal;
-        }
-    </style>
+    <title>Piotr</title>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-    <h1>Moja pierwsza tabela</h1>
-    <table border="1" width="50%">
+    <h1>First Project</h1>
+    <span>Peter Ossowski</span>
+    <p><b><span>13.07.2022.</span></b></p>
+    <table border="1">
         <tr>
-            <th>czesc1 </th>
-            <th>czesc2 </th>
-            <th>czesc3 </th>
+            <td>Teil1</td>
+            <td>Teil2</td>
+            <td>Teil3</td>
         </tr>
-        <td colspan="2" rowspan="2">czesc4 czesc5 czesc7 czesc8 </td>
-        <td>czesc6</td>
+        <tr>
+            <td>Teil4</td>
+            <td>Teil5</td>
+            <td>Teil6</td>
         </tr>
-        <td>czesc9</td>
-        </tr>
-        <td colspan="2">czesc11</td>
-            <td>czesc12</td>
-            </tr>
     </table>
-    <h1>Moja pierwsza tabela</h1>
+    <h1><b>Kocham Anie !</b></h1>
+</body>
+
+
+
+
+
+<body>
+    <p>
+    <table border="5" width="90%">
+        <caption>proba</caption>
+
+        <thead>
+            <tr>
+                <th>
+                    Imie
+                </th>
+                <th>
+                    Nazwisko
+                </th>
+                <th>
+                    Wiek
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="3"> Peter Ossowski 51</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Piotr Maik</td>
+                <td>Rekowski</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td colspan="2">Kozikowski 13</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> 
+<td colspan="3">Koniec tabeli</td>
+
+            </tr>
+        </tfoot>
+    </table>
+    </p>
+<p>
+<span style="margin-left: 300px;"><b>przyklad</b></span>
+
+
+
+</p>
+
+
+    <p>
+
+    <h1>Fromularz zapisow</h1>
+
     <ol>
-        <li>kosc</li>
-        <li>kosc</li>
+        <li>Auta</li>
         <ul>
-            <li>kosc</li>
-            <li>kosc</li>
+            <li>Audi</li>
+            <li>Bmw</li>
+        </ul>
+        <li>Motory</li>
+        <ul>
+            <li>Suzuki</li>
+            <li>Kawasaki</li>
+        </ul>
+        <li>Samoloty</li>
+        <ul>
+            <li>Tu-134</li>
+            <li>Boeing</li>
+        </ul>
+        <li>Jedzenie</li>
+        <ul>
+            <li>Sniadanie</li>
+            <ul>
+                <li>Jajecznica</li>
+            <li>Dzem</li>
+            </ul>
+            <li>Obiad</li>
+            <ul>
+                <li style="color: yellow;">Pierwsze danie</li>
+                <li style="color: red;">Drugie danie</li>
+                <li style="color: blue">Deser</li>
+            </ul>
         </ul>
     </ol>
-    <ol>
-        <li>kosc</li>
-        <li>kosc</li>
-        <ol>
-            <li>kosc</li>
-            <li>kosc</li>
-        </ol>
-    </ol>
+
+
+
+    </p>
+    <div style="width: 500px;">
+        <span>tekst0</span>
+        <div>
+             <span>tekst1a</span>
+             <span>tekst1b</span>
+        </div>
+        <div style="margin-top:60px;">
+            tekst2
+        </div>
+         <div>
+            <span>tekst3</span> 
+            <span style="margin-left:200px;">tekst4</span>
+        </div>
+         <div style="display: inline;">
+            tekst5
+        </div>
+        <div style="display: inline;">
+            tekst6
+        </div>
+    </div>
+    <p>
+    <form method="post" action="index2.html" style="margin-left: 70px;">
+        <div>
+            <label style="margin-top: 50;" for="imieForm">Imie</label>
+            <input style="margin-top: 50;" id="imieForm" type="text" name="imie">
+        </div>
+        <div>
+            <label for="passwortForm">Haslo</label>
+            <input id="passwortForm" type="text" name="haslo">
+        </div>
+        <div>
+            <label for="wiekForm">Wiek</label>
+            <input id="wiekForm" type="number" name="wiek">
+        </div>
+        <div>
+            <label for="colorForm">Color</label>
+            <input id="colorForm" type="color" name="color" class="dlugosc177" >
+        </div>
+        <div>
+            <label for="dateForm">Data</label>
+            <input id="dateForm" type="date" name="data" class="dlugosc177">
+        </div>
+        <div>
+            <label for="timeForm">Czas</label>
+            <input type="time" name="czas" id="timeForm" class="dlugosc177">
+        </div>
+    </form>
+    </p>
 </body>
+
+>>>>>>> 6d03291d45ae086576dd2a600149f1b03a72f2e9
