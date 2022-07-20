@@ -22,7 +22,52 @@ label {
     width:177px ;
 
 }
-div#komorka2 {
-      width: 500px;
- }
 
+
+div.div1_ex1 {
+	width:500px;
+	height:100px;
+	margin:2px auto;
+	background:yellow;
+	border:1px solid #800080;
+}
+
+div.div2_ex1 {
+	width:66%;
+	height:100px;
+	float:left;
+	margin:2px auto;
+	background: #89ff92;
+}
+
+div.div3_ex1 {
+	width:33%;
+	height:100px;
+    float:left;
+	margin:2px auto;
+	background:#ff8991;
+}
+
+div.div4_ex1 {
+	clear:both;
+	height:100px;
+	width:500px;
+    float:left;
+	margin:2px auto;
+	background:#95cdf3;
+	border:1px solid #800080;
+}
+div.div5_ex1 {
+	width:33%;
+	height:100px;
+    float:left;
+	margin:2px auto;
+	background:#ff8991;
+}
+div.div6_ex1 {
+	width:33%;
+	height:100px;
+    float:left;
+	margin:2px auto;
+	background:#898bff;
+}
