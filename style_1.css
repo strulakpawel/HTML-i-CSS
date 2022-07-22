@@ -1,0 +1,30 @@
+#titel1Form 
+{
+background-color: rgb(42, 163, 117);
+}
+#subtitel1Form 
+{
+background-color: rgb(89, 233, 178);
+}
+#subtitel2Form 
+{
+background-color:  rgb(89, 233, 178);
+}
+#subtitel3Form 
+{
+background-color:  rgb(89, 233, 178);
+}
+th 
+{
+ background-color: rgb(89, 233, 178);
+}
+a 
+{
+    text-decoration-line: underline;
+    color: rgb(42, 163, 117);
+}
+ul 
+{
+    list-style-type: none;
+    display: inline-block;
+}
