@@ -23,7 +23,7 @@ label {
 
 *{box-sizing: border-box;}
 #glowny 
-    {
+    {font-size: 0;
 	width: 500px;
 	height: 500px;
     }
@@ -36,7 +36,7 @@ label {
 	}
 	#div2
 	{
-		width: 66%;
+		width: 67%;
 		height: 33%;
 		border: solid 1px blue;
 		background-color: blue;
@@ -50,7 +50,7 @@ label {
 	}
 	#div4
 	{
-		width: 32%;
+		width: 34%;
 		height: 33%;
 		border: solid 1px yellow;
 		background-color: yellow;
