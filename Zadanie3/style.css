@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    }
+
+div#glowny {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1%;
+    display: inline-block;
+    width: auto;
+    }
+
+div {
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 2%;
+    margin: 2%;
+    width: 100px;;
+    display: inline-block;
+    color: white;
+    }
