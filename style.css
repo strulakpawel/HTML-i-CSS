@@ -25,3 +25,7 @@
             font-stretch: narrower
             
         }
+
+        *{
+            box-sizing: border-box;
+        }
