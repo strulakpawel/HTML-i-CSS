@@ -10,3 +10,12 @@ ol {
 h2 {
     font: caption;
 }
+
+label {
+    display: inline-block;
+    width: 43px;
+}
+
+div {
+    margin: 10px 0;
+}
