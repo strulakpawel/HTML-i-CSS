@@ -22,7 +22,12 @@
         <hr>
         <sup>Lorem</sup> ipsum et door sit amet <br> 
         <strong>Lorem</strong> ipsum et door sit amet &lt; &gt; &nbsp; &reg; &hearts; <br> <em>Lorem</em> ipsum et door sit amet Lorem ipsum et door sit amet</p>
-    <p> Paragraf - zawartość tekstu</p>
+    <p> Paragraf - zawartość tekstu, umoliwia dzielenie tesktu na akapity</p>
+
+    <p>
+        <em>Pochylona czcionka znacznik em = emphasize </em> <br>
+        <strong>Pogrubiona czcionka znacznik strong</strong> <br> Możemy też użyć taga <b>span</b> by stworzyć własne wyróżnienie tekstu, którego charakter zdefiniujemy przy użyciu CSS.
+    </p>
     <table border="1" width="100%">
         <tr>
             <td>
@@ -115,7 +120,7 @@
     </tfoot> 
     </table>
 
-<h2>Kolejna Tabela</h2>
+<h2><span style="margin-left: 70px;">Kolejna</span> Tabela</h2>
 
     <table border="1" width="50%">
         <tr>
@@ -227,7 +232,7 @@
 <p><b>Dane uzytkownika</b></p>
     <form method="get" action="index2.html">
     
-    <p><label>Imię:<input width="1" name="Imię" /></label></p>
+    <label style=" display: inline-block; width: 140px;">Imię:</label><input width="1" name="Imię"</div>
     <p><label>Nazwisko:<input name="Nazwisko" /></label></p>
     <p><label>Kierunek studiów:<input name="Kierunek" /></label></p>
     <p><label>Rok studiów:<input name="rok" /></label></p>
@@ -235,8 +240,91 @@
     <input type="submit">
     </form>
 
+    <div style="width: 700px;">
+        <span>tekst0</span>
+        <div style="padding-bottom: 30px;">
+             <span>tekst1a</span>
+             <span>tekst1b</span>
+        </div>
+        <div>
+            tekst2
+        </div>
+         <div>
+            <span style="display: inline-block; width: 100px">tekst3</span>
+            <span>tekst4</span>
+        </div>
+         <div style="display: inline;">
+            tekst5
+        </div>
+        <div style="display: inline;">
+            tekst6
+        </div>
+    </div>
+
+
+<div id="divForm">
+    <form method="get" action="index2.html">
+
+       
+        <div> 
+                <label style="display: inline-block; width: 140px" for="NazwaUzytkownikaForm">Nazwa uzytkownika</label>
+            <input id="NazwaUzytkownikaForm" type="text" name="Nazwa uzytkownika">
+        </div>
+
+        <div>
+            <label style="display: inline-block; width: 140px" for="HasłoForm">Hasło</label>
+            <input id="HasłoForm" type="password" name="Hasło">
+        </div>
+
+        <div>
+            <label style="display: inline-block; width: 140px" for="WiekForm">Wiek</label>
+            <input id="WiekForm" type="number" name="Wiek">
+        </div>
+
+    </form>
+</div>
+
+
+<h3>ZADANIE2</h3>
+
+<p>Na podstawie informacji o właściwości display i zachowaniu przy wartościach: inline, block, inline-block spróbuj utworzyć odpowiednik układu tabeli:</p>
+
+<div>
+    <table border="1" width="500px">
+
+        <th colspan="3">Nagłówek tabeli</th>
+        <tr>
+            <div id="Komórka1">
+                <td>Komórka1</td>
+            </div>
+
+            </div>
+            <div id="Komrórka2">
+                <td colspan="2">Komórka2</td>
+            </div>
+        </tr>
+
+        <tr>
+            <div class="Wiersz3"><td>
+                Komórka3</td></div>
+            </div>
+            <div class="Wiersz3">
+                <td>Komórka4</td>
+            </div>
+
+            <div class="Wiersz3">
+                <td>Komórka5</td>
+            </div>
+        </tr>
+
+    </table>    
+</div>
+   
+
+
+</table>
     
-        
+         
 
 </body>
 </html>

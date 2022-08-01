@@ -1,7 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
 ol {
     color: blueviolet;
 }
 
 h1 {
     color: blue;
+font-size: 2em;
+border: solid;
+width: 600px;
+margin-block-start: 50px;
+margin-block-end: 100px;
+margin-inline-end: 100px;
+margin-inline-start: 100px;
+padding: 10px 20px;
+display: inline-block;
+font-style: normal;
+font-weight: bold;
+}
+
+/* * gwiazdka przed selektorem = universal selektor - definiuje właściwość dla kadego elementu */
+
+/* span umozliwia otoczenie znacznika. W ten sposób mozemy nadać styl dla otoczonego elementu, nawet pojednyczego wyrazu wewnątrz znaczkia. */
+
+/* . przed nazwą selektora class
+   # przed nazwą selektora id */
+
+.Form2 {
+width: 140px;
+height: 20px;
+}
+
+#divForm 
+{ margin-top: 50px;
+margin-block-end: 50px;}
+
+#Komórka1 {
+    display: block;
+    width: 300px;
+}
+
+#Komórka2 {
+    display: inline-block;
+    width: 200px;
+}
+
+.Wiersz3 {
+    display: inline-block;
+    width: 500:3px;
 }
